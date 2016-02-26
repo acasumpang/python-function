@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
-nagan = "Mary"
-age = 19
 
-print" HI! my name is ", nagan + " and my age is ",age
-print" HI! my name is ", nagan + " and my age is ",age
-print" HI! my name is ", nagan + " and my age is ",age
+def FuncOut(name,age):
 
+    print " HI! my name is ", name + " and my age is ",age
+    print " HI! my name is %s  and my age is %d" %(name,age)
+    print " HI! my name is {} and my age is{}".format(name,age)
+
+FuncOut("Mary",19)
